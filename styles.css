@@ -1,0 +1,33 @@
+body {
+    background-color: #1a1a1a; /* Darker background color for better contrast */
+    animation: fadeout 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    color: #ffffff; /* Set text color to white for better readability */
+}
+
+img {
+    display: inline-block;
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.brlarge {
+    display: block;
+    margin-bottom: 2em;
+}
+
+nav {
+    background-color: #ffa500; /* Use a consistent color notation for the background */
+    padding: 1em; /* Add padding for a better visual appearance */
+    border-radius: 5px; /* Add rounded corners to the navigation bar */
+}
